@@ -18,13 +18,15 @@
          
          // testic class with extension
           
-        $Product = new Product("computer","8,70","2","Francesco","ax");
+        $Product = new Product("computer","9","6","Francesco","ax");
         var_dump($Product); 
         // testing Function
-        echo $Product->PrintName();
+      /*   echo $Product->PrintName();
         echo $Product->PrintPrice();
         echo $Product->PrintLasting();
-        echo $Product->PrintUser();
+        echo $Product->PrintUser(); */
+
+       /*  echo $Product->Discount(); */
 
         ?>
       </header>

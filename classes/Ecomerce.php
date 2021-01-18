@@ -27,7 +27,7 @@ class Ecomerce {
         return $this->User;
     }
 
-    private function Optimizing(){
-        
+    private function Discount(){
+        return ($this->Lasting < 5) ? $this->Price * 0.80 : $this->Price * 1;
     }
 }
