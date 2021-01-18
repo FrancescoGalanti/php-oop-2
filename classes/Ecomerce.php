@@ -13,4 +13,21 @@ class Ecomerce {
         $this->User = $User;
 
     }
+
+    public function PrintName() {
+        return $this->Name;
+    }
+    public function PrintPrice() {
+        return $this->Price;
+    }
+    public function PrintLasting() {
+        return $this->Lasting;
+    }
+    public function PrintUser() {
+        return $this->User;
+    }
+
+    private function Optimizing(){
+        
+    }
 }

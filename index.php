@@ -20,6 +20,11 @@
           
         $Product = new Product("computer","8,70","2","Francesco","ax");
         var_dump($Product); 
+        // testing Function
+        echo $Product->PrintName();
+        echo $Product->PrintPrice();
+        echo $Product->PrintLasting();
+        echo $Product->PrintUser();
 
         ?>
       </header>
