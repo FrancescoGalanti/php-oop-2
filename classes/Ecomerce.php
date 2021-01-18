@@ -27,7 +27,18 @@ class Ecomerce {
         return $this->User;
     }
 
-    private function Discount(){
+    protected function Discount(){
         return ($this->Lasting < 5) ? $this->Price * 0.80 : $this->Price * 1;
     }
+
+    public function SetName($Name){
+        $this->Name = $Name;
+    }
+
+    public function GetName(){
+        return $this->Name = $Name;
+    }
+
+
+
 }

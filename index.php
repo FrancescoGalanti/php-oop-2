@@ -1,5 +1,7 @@
 <?php include_once __DIR__ . "/classes/Ecomerce.php" ?>
 <?php include_once __DIR__ . "/classes/Product.php" ?>
+<?php include_once __DIR__ . "/classes/Result.php" ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -27,7 +29,11 @@
         echo $Product->PrintUser(); */
 
        /*  echo $Product->Discount(); */
+          
+       $Result = new Result("computer","9","6","Francesco",);
+       var_dump($Result); 
 
+       echo $Result->GetOut();
         ?>
       </header>
      <!-- main -->
