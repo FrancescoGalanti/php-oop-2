@@ -1,3 +1,6 @@
+<?php include_once __DIR__ . "/classes/Ecomerce.php" ?>
+<?php include_once __DIR__ . "/classes/Product.php" ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +11,17 @@
 <body>
       <!-- header -->
       <header>
-      
+        <?php
+         // testing first class
+      /*   $Ecomerce = new Ecomerce("computer","8,70","2","Francesco");
+        var_dump($Ecomerce); */
+         
+         // testic class with extension
+          
+        $Product = new Product("computer","8,70","2","Francesco","ax");
+        var_dump($Product); 
+
+        ?>
       </header>
      <!-- main -->
       <main>
