@@ -5,7 +5,7 @@ class Product extends Ecomerce{
     public  $Product;
 
     function __construct($Name,$Price,$Lasting, $User,$Product ){
-        $Product = parent::__construct();
+        parent::__construct($Name,$Price,$Lasting, $User,);
 
         $this->Product = $Product;
     }
