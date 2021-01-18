@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
       <!-- header -->
@@ -33,7 +33,7 @@
        
 
        // testing Function protected
-        $Result = new Result("computer","9","6","Francesco",);
+        $Result = new Result("computer","9","4","Francesco",);
        
 
       /*  echo $Result->GetOut();  */
@@ -59,7 +59,9 @@
       </header>
      <!-- main -->
       <main>
-      
+         <div>
+            Il prezzo finale e scontato perche il prodotto dura poco : <?php echo $Result->GetOut(); ?>
+         </div>
       </main>
        <!-- footer -->
       <footer>
