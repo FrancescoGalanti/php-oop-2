@@ -10,4 +10,8 @@ class Product extends Ecomerce{
         $this->Product = $Product;
     }
 
+    public function PrintProduct() {
+        return $this->Product;
+    }
+
 }

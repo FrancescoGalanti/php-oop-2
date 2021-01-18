@@ -9,6 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
 </head>
 <body>
       <!-- header -->
@@ -21,7 +22,7 @@
          // testic class with extension
           
         $Product = new Product("computer","9","6","Francesco","ax");
-        var_dump($Product); 
+       /*  var_dump($Product);  */
         // testing Function
       /*   echo $Product->PrintName();
         echo $Product->PrintPrice();
@@ -29,12 +30,32 @@
         echo $Product->PrintUser(); */
 
        /*  echo $Product->Discount(); */
-          
-       $Result = new Result("computer","9","6","Francesco",);
-       var_dump($Result); 
+       
 
-       echo $Result->GetOut();
+       // testing Function protected
+        $Result = new Result("computer","9","6","Francesco",);
+       
+
+      /*  echo $Result->GetOut();  */
         ?>
+
+        <div>
+           <ul>
+              <li>name: <?php  echo $Product->PrintName(); ?></li>
+           </ul>
+           <ul>
+              <li>Price: <?php  echo $Product->PrintPrice(); ?></li>
+           </ul>
+           <ul>
+              <li>Lasting : <?php  echo $Product->PrintLasting(); ?></li>
+           </ul>
+           <ul>
+              <li>User : <?php  echo $Product->PrintUser(); ?></li>
+           </ul>
+           <ul>
+             <li>Product: <?php  echo $Product->PrintProduct(); ?></li>
+           </ul>
+        </div>
       </header>
      <!-- main -->
       <main>
